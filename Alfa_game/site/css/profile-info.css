@@ -1,0 +1,289 @@
+* {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+body {
+	background-color: #000;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 30px;
+    padding-left: 36px;
+	padding-top: 11px;
+	padding-right: 43px;
+	background: #626262;
+}
+
+header a {
+	color: #FFF;
+	font-family: sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	text-decoration: none;
+	margin-right: 34px;
+	transition-duration: 0.3s;
+}
+
+header a:hover {
+	transform: scale(1.1);
+	color: red;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background: #2D2D2D;
+	padding-left: 36px;
+	padding-top: 10px;
+	padding-right: 43px;
+	text-align: right;
+}
+
+nav a {
+	color: #FFF;
+	font-family: sans-serif;
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 500;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: right;
+	margin-right: 44px;
+	line-height: 45px;
+	transition-duration: 0.3s;
+}
+
+nav a:hover {
+	transform: scale(1.1);
+	color: red;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.aside {
+	display: flex;
+	flex-direction: column;
+    width: 25%;
+    height: 1000px;
+	margin-left: 20px;
+}
+
+.aside-content {
+	display: flex;
+	flex-direction: column;
+    width: 95%;
+    height: 900px;
+	border-radius: 12px;
+	margin-top: 60px;
+	background: #1F1E1E;
+}
+
+.main {
+	overflow-y: hidden;
+    display: flex;
+	flex-direction: column;
+    align-items: center;
+    width: 75%;
+    height: 1000px; 
+}
+
+.my-orders {
+	color: #fff;
+	font-size: 30px;
+	margin-top: 30px;
+	font-family: sans-serif;
+}
+
+.img-container {
+	display: flex;
+	justify-content: center;
+	margin-top: 40px;
+}
+
+.image-el {
+	display: flex;
+	width: 100px;
+	height: 100px;
+}
+
+.fio {
+	display: flex;
+	justify-content: center;
+	margin-top: 15px;
+	color: #ffffff;
+}
+
+.aside-el {
+	display: flex;
+	margin-left: 30px;
+	margin-top: 20px;
+	color: #fff;
+	font-size: 20px;
+}
+
+.aside-link {
+	text-decoration: none;
+	font-family: sans-serif;
+}
+
+.leave-account {
+	color: red;
+}
+
+.order-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 785px;
+	border-radius: 12px;
+	margin-top: 40px;
+    background-color: #1F1E1E;
+}
+
+.continf{
+	overflow-y: hidden;
+width:848px; 
+height: 405px; 
+margin-top: -30%;
+margin-right:53px ;
+}
+
+.info-block{
+	overflow-x: hidden;
+	overflow-y: hidden;
+display: flex;
+justify-content: center center;
+
+
+}
+
+.img-continf {
+	background-image: url("user.png");
+	display: flex;
+	background-size: cover;
+	margin-top: 0px;
+	width: 38px;
+	height: 38px;
+	margin-right:3% ;
+}
+
+.fiocon{
+	margin-right: 100px;
+	font-family: sans-serif;
+}
+
+.info-content{
+	overflow-y: hidden;
+	width: 400px;
+	height: 400px;
+
+	margin-left: 3%;
+	margin-top: 52px;
+}
+
+.info-block-2{
+	overflow-y: hidden;
+	width: 400px;
+	height: 400px;
+	
+}
+
+.otst {
+	margin-top:39px;
+}
+
+.change-button {
+	color:#0028FF;
+	text-decoration: none;
+	font-family: sans-serif;
+}
+
+.text-2 {
+	color: #ffffff;
+	margin-top: 5px;
+	font-family: sans-serif;
+}
+
+.text-data {
+	color: #fff;
+	font-size: 24px;
+}
+
+.data-block {
+	margin-left: 28px;
+}
+
+.text {
+    color: #fff;
+    font-size: 20px;
+}
+
+footer {
+	background-color: #1F1E1E;
+	width: 100%;
+	height: 250px
+}
+
+footer div {
+	display: inline-block;
+	margin-right: 54px;
+	margin-top: 30px;
+	float: right;
+}
+
+footer h3 {
+	color: #FFF;
+	font-family: Inter;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	margin-bottom: 3px;
+}
+
+footer p {
+	color: #FFF;
+	font-family: Inter;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin-bottom: 2px;
+}
+
+footer .line {
+	width: 1370px;
+	height: 1px;
+	background: white;
+	margin-top: 76px;
+}
+
+footer .txt-link {
+	color: #FFF;
+	font-family: sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	margin-left: 17px;
+	text-decoration: none;
+}
+
+footer .link {
+	margin-top: 40px;
+}
+
+footer a {
+	text-decoration: none;
+}

@@ -1,0 +1,3 @@
+RewriteEngine On
+
+ErrorDocument 404 /Alfa_game/site/config/404.php

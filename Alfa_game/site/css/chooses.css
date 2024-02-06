@@ -1,0 +1,418 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.main_grid {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 40px 65px 2684px 278px;
+	grid-template-areas: 
+		"header"
+		"nav"
+		"main"
+		"footer";
+}
+
+.main_grid * {
+	font-family: sans-serif;
+	color: white;
+}
+
+header {
+	padding-left: 36px;
+	padding-top: 11px;
+	padding-right: 43px;
+	background: #626262;
+	grid-area: header;
+}
+
+nav {
+	grid-area: nav;
+	background: #2D2D2D;
+	padding-left: 36px;
+	padding-top: 10px;
+	padding-right: 43px;
+	text-align: right;
+}
+
+main {
+	background: black;
+	grid-area: main;
+	padding-left: 36px;
+	padding-top: 37px;
+	padding-right: 43px;
+}
+
+footer {
+	background: #2D2D2D;
+	grid-area: footer;
+	padding-left: 24px;
+	padding-right: 43px;
+	padding-top: 31px;
+}
+
+header a {
+	color: #FFF;
+	font-family: sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	text-decoration: none;
+	margin-right: 34px;
+	transition-duration: 0.3s;
+}
+
+header a:hover {
+	transform: scale(2.0);
+	color: red;
+}
+
+.phone_number {
+	text-align: right;
+	margin-left: 821px;
+}
+
+div {
+	display: inline-block;
+	background-size: cover;
+}
+
+.img_logo {
+	float: left;
+	background-image: url("img_main/logo.png");
+	width: 45px;
+	height: 45px;
+
+}
+
+.basket_img {
+	background-image: url("img_main/basket.png");
+	width: 40px;
+	height: 40px;
+	float: right;
+}
+
+nav a {
+	color: #FFF;
+	font-family: sans-serif;
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 500;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: right;
+	margin-right: 44px;
+	line-height: 45px;
+	transition-duration: 0.3s;
+}
+
+nav a:hover {
+	transform: scale(2.0);
+	color: red;
+}
+
+h2 {
+	margin-top: 70px;
+	color: #FFF;
+	font-family: sans-serif;
+	font-size: 27px;
+	font-style: normal;
+	font-weight: 700;
+	text-align: center;
+}
+
+
+main .block_gray {
+	margin-top: 47px;
+	width: 360px;
+	height: 319px;
+	flex-shrink: 0;
+	border-radius: 10px;
+	background: #1F1F1F;
+	margin-right: 175px;
+}
+
+main .end {
+	margin-right: 0px;
+}
+
+ .img-1 {
+	width: 250px;
+	height: 220.833px;
+	flex-shrink: 0;
+	background-image: url('img_choose/monitor.png');
+	margin-top: 23px;
+	margin-left: 66px;
+}
+
+ .img-2 {
+	width: 250px;
+	height: 220.833px;
+	flex-shrink: 0;
+	background-image: url('img_choose/keuboard.png');
+	margin-top: 23px;
+	margin-left: 66px;
+}
+
+ .img-3 {
+	width: 250px;
+	height: 220.833px;
+	flex-shrink: 0;
+	background-image: url('img_choose/mouse.png');
+	margin-top: 23px;
+	margin-left: 66px;
+}
+
+.block_gray h3 {
+	text-align: center;
+	color: #FFF;
+	font-family: sans-serif;
+	font-size: 23px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	margin-top: 10px;
+
+}
+
+.parent-3 div {
+	display: block;
+	background: gray;
+}
+
+.parent-3 {
+	margin-top: 101px;
+	display: grid;
+	grid-template-columns: 400px 400px 400px;
+	grid-template-rows: 54px 320px 54px;
+	grid-column-gap: 120px;
+}
+
+.parent-3 .mini_block {
+	background: #2D2D2D;
+	color: #FFF;
+	font-family: sans-serif;
+	font-size: 27px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 54px;
+	text-align: center;
+}
+
+.parent-3 .big_block {
+	padding-top: 18px;
+	background: #1F1E1E;
+}
+
+.big_block .img-9 {
+	width: 364.78px;
+	height: 260px;
+	flex-shrink: 0;
+	background-image: url(img_comps/nvidia.png);
+	margin: auto;
+}
+
+.big_block .img-10 {
+	width: 200px;
+	height: 272.667px;
+	flex-shrink: 0;
+	background-image: url(img_comps/asus.png);
+	margin: auto;
+}
+
+.big_block .img-11 {
+	width: 200px;
+	height: 272.667px;
+	flex-shrink: 0;
+	background-image: url(img_comps/msi.png);
+	margin: auto;
+}
+
+.red_line {
+	display: block;
+	width: 1440px;
+	height: 84px;
+	flex-shrink: 0;
+	background: #F44;
+	margin-bottom: 18px;
+}
+
+.h {
+	margin-bottom: 82px;
+}
+
+.red_line p {
+	color: #FFF;
+	font-family: sans-serif;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 84px;
+	margin-left: 17px;
+}
+
+.parent-2 {
+	display: grid;
+	margin-top: 114px;
+	grid-template-columns: 400px 400px 400px;
+	grid-template-rows: 341px 160px 341px;
+	grid-column-gap: 120px;
+	grid-row-gap: 1px;
+}
+
+
+
+.parent-2 .img-12 {
+	background-image: url(img_main/pc-1.png);
+	transition-duration: 0.3s;
+}
+
+.parent-2 .img-13 {
+	background-image: url(img_main/pc-2.png);
+	transition-duration: 0.3s;
+}
+
+.parent-2 .img-14 {
+	background-image: url(img_main/pc-3.png);
+	transition-duration: 0.3s;
+}
+
+.parent-2 .block {
+	background: #2D2D2D;
+}
+
+.block p {
+	color: #FFF;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.block h3 {
+	margin-top: 11px;
+	margin-bottom: 24px;
+	color: #FFF;
+	font-family: sans-serif;
+	font-size: 19px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	text-align: center;
+	text-decoration: none;
+}
+
+.block a {
+	text-decoration: none;
+}
+
+.parent-2 .img-12:hover {
+	transform: scale(1.2);
+	cursor: pointer;
+	
+}
+
+.parent-2 .img-13:hover {
+	transform: scale(1.2);
+	cursor: pointer;
+	
+}
+
+.parent-2 .img-14:hover {
+	transform: scale(1.2);
+	cursor: pointer;
+	
+}
+
+footer div {
+	display: inline-block;
+	margin-right: 54px;
+	float: right;
+}
+
+footer h3 {
+	color: #FFF;
+	font-family: Inter;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	margin-bottom: 3px;
+}
+
+footer p {
+	color: #FFF;
+	font-family: Inter;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin-bottom: 2px;
+}
+
+footer .line {
+	width: 1370px;
+	height: 1px;
+	background: white;
+	margin-top: 76px;
+}
+
+footer .txt-link {
+	color: #FFF;
+	font-family: sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	margin-left: 17px;
+	text-decoration: none;
+}
+
+footer .link {
+	margin-top: 40px;
+}
+
+footer a {
+	text-decoration: none;
+}
+
+.block_gray h3:hover {
+	color: red;
+	cursor: pointer;
+}
+
+.img-1:hover {
+	transition: 0.3s;
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+.img-3:hover {
+	transition: 0.3s;
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+.img-2:hover {
+	transition: 0.3s;
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+.block h3:hover {
+	color: red;
+}
+
+
+h3 a:hover {
+	color: red;
+}
+
+
+h3 a {
+	text-decoration: none;
+}

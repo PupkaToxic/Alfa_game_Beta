@@ -1,0 +1,238 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.main_grid {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 40px 65px 1384px 278px;
+	grid-template-areas: 
+		"header"
+		"nav"
+		"main"
+		"footer";
+}
+
+.main_grid * {
+	font-family: sans-serif;
+	color: white;
+}
+
+header {
+	padding-left: 36px;
+	padding-top: 11px;
+	padding-right: 43px;
+	background: #626262;
+	grid-area: header;
+}
+
+nav {
+	grid-area: nav;
+	background: #2D2D2D;
+	padding-left: 36px;
+	padding-top: 10px;
+	padding-right: 43px;
+	text-align: right;
+}
+
+main {
+	background: black;
+	grid-area: main;
+	padding-left: 36px;
+	padding-top: 37px;
+	padding-right: 43px;
+}
+
+footer {
+	background: #2D2D2D;
+	grid-area: footer;
+	padding-left: 24px;
+	padding-right: 43px;
+	padding-top: 31px;
+}
+
+header a {
+	color: #FFF;
+	font-family: sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	text-decoration: none;
+	margin-right: 34px;
+	transition-duration: 0.3s;
+}
+
+header a:hover {
+	transform: scale(2.0);
+	color: red;
+}
+
+.phone_number {
+	text-align: right;
+	margin-left: 821px;
+}
+
+div {
+	display: inline-block;
+	background-size: cover;
+}
+
+.img_logo {
+	float: left;
+	background-image: url("img_main/logo.png");
+	width: 45px;
+	height: 45px;
+
+}
+
+.basket_img {
+	background-image: url("img_main/basket.png");
+	width: 40px;
+	height: 40px;
+	float: right;
+}
+
+nav a {
+	color: #FFF;
+	font-family: sans-serif;
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 500;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: right;
+	margin-right: 44px;
+	line-height: 45px;
+	transition-duration: 0.3s;
+}
+
+nav a:hover {
+	transform: scale(2.0);
+	color: red;
+}
+
+h1 {
+	text-align: center;
+	color: #FFF;
+	font-family: sans-serif;
+	font-size: 27px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	margin-top: 70px;
+}
+
+ .gray_block {
+	margin-top: 60px;
+	width: 1430px;
+	height: 250px;
+	flex-shrink: 0;
+	border-radius: 15px;
+	background: #1F1E1E;
+	margin-bottom: 400px;
+}
+
+.img {
+	margin: 35px;
+	width: 130px;
+	height: 113.492px;
+	flex-shrink: 0;
+	background-image: url('img_orders/dragon.png');
+}
+
+
+.img h2 {
+	color: #FFF;
+	font-family: sans-serif;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	margin-left: 130px;
+}
+
+.img p {
+	color: #B10707;
+	font-family: sans-serif;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	margin-left: 130px;
+}
+
+.hr {
+	width: 1429.875px;
+	height: 1px;
+	flex-shrink: 0;
+	background: #2D2D2D;
+}
+
+main p {
+	margin-top: 5px;
+	margin-left: 50px;
+	color: #FFF;
+	font-family: sans-serif;
+	font-size: 26px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.p {
+	color: white;
+}
+
+footer div {
+	display: inline-block;
+	margin-right: 54px;
+	float: right;
+}
+
+footer h3 {
+	color: #FFF;
+	font-family: Inter;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	margin-bottom: 3px;
+}
+
+footer p {
+	color: #FFF;
+	font-family: Inter;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin-bottom: 2px;
+}
+
+footer .line {
+	width: 1370px;
+	height: 1px;
+	background: white;
+	margin-top: 76px;
+}
+
+footer .txt-link {
+	color: #FFF;
+	font-family: sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	margin-left: 17px;
+	text-decoration: none;
+}
+
+footer .link {
+	margin-top: 40px;
+}
+
+footer a {
+	text-decoration: none;
+}

@@ -1,0 +1,203 @@
+* {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: sans-serif;
+}
+
+
+
+body {
+	background-color: #000;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 30px;
+    padding-left: 36px;
+	padding-top: 11px;
+	padding-right: 43px;
+	background: #626262;
+}
+
+h2 {
+	overflow: hidden;
+}
+
+table {
+	border: 1px solid red;
+}
+
+header a {
+	color: #FFF;
+	font-family: sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	text-decoration: none;
+	margin-right: 34px;
+	transition-duration: 0.3s;
+}
+
+header a:hover {
+	transform: scale(1.1);
+	color: red;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background: #2D2D2D;
+	padding-left: 36px;
+	padding-top: 10px;
+	padding-right: 43px;
+	text-align: right;
+}
+
+nav a {
+	color: #FFF;
+	font-family: sans-serif;
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 500;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: right;
+	margin-right: 44px;
+	line-height: 45px;
+	transition-duration: 0.3s;
+}
+
+nav a:hover {
+	transform: scale(1.1);
+	color: red;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.aside {
+	display: flex;
+	flex-direction: column;
+    width: 25%;
+    height: 1000px;
+	margin-left: 20px;
+}
+
+.aside-content {
+	display: flex;
+	flex-direction: column;
+    width: 95%;
+    height: 900px;
+	border-radius: 12px;
+	margin-top: 60px;
+	background: #1F1E1E;
+}
+
+.main {
+    display: flex;
+	flex-direction: column;
+    align-items: center;
+    width: 75%;
+    height: 1000px; 
+}
+
+.my-orders {
+	color: #fff;
+	font-size: 30px;
+	margin-top: 30px;
+}
+
+.img-container {
+	display: flex;
+	justify-content: center;
+	margin-top: 40px;
+}
+
+.image-el {
+	display: flex;
+	width: 100px;
+	height: 100px;
+}
+
+.fio {
+	display: flex;
+	color: #fff;
+	justify-content: center;
+	margin-top: 15px;
+}
+
+.aside-el {
+	display: flex;
+	margin-left: 30px;
+	margin-top: 20px;
+	color: #fff;
+	font-size: 20px;
+}
+
+.aside-link {
+	text-decoration: none;
+}
+
+.leave-account {
+	color: red;
+}
+
+.orders-block {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+	height: 1000px;
+}
+
+.orders-history {
+	display: flex;
+	width: 100%;
+	height: 30px;
+	margin-top: 60px;
+	font-size: 20px;
+	justify-content: center;
+	color: #fff;
+}
+
+table {
+	background-color: green;
+	margin-top: 60px;
+}
+
+.t_img {
+	width: 180px;
+	height: 180px;
+}
+
+.img_name {
+	color: red;
+	text-align: left;
+}
+
+.configuration {
+	color: #fff;
+}
+
+table, td {
+	background: #1F1E1E;
+	border: 1px solid green;
+	border-radius: 25px;
+	border-color: #1F1E1E;
+}
+
+
+td {
+	font-size: 24px;
+	width: 220px;
+	height: 100px;
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+}
